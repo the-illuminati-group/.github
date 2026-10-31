@@ -1,0 +1,55 @@
+<svg width="1200" height="380" viewBox="0 0 1200 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg">
+      <stop offset="0" stop-color="#260000"/>
+      <stop offset=".65" stop-color="#100000"/>
+      <stop offset="1" stop-color="#030000"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="380" fill="url(#bg)"/>
+
+  <path d="M0 2H1200M0 378H1200" stroke="#8B0000"/>
+  <path d="M35 35H1165V345H35Z" stroke="#390000"/>
+
+  <g stroke="#710000" opacity=".5">
+    <path d="M0 100H1200M0 280H1200"/>
+    <path d="M200 0V380M1000 0V380"/>
+  </g>
+
+  <g transform="translate(600 130)" filter="url(#glow)">
+    <path d="M0 -100L95 65H-95Z" stroke="#B00000" stroke-width="3"/>
+    <path d="M0 -75L70 45H-70Z" stroke="#790000"/>
+    <circle cy="-10" r="39" stroke="#FF0000" stroke-width="2"/>
+    <path d="M-38 -10Q0 -48 38 -10Q0 28 -38 -10Z" stroke="#FF0000" stroke-width="2"/>
+    <circle cy="-10" r="12" fill="#C00000"/>
+    <circle cy="-10" r="5" fill="#080000"/>
+  </g>
+
+  <text x="600" y="265" fill="#E8D0D0"
+        font-family="Georgia,serif" font-size="66"
+        letter-spacing="15" text-anchor="middle">
+    ИЛЛЮМИНАТЫ
+  </text>
+
+  <path d="M330 290H870" stroke="#9B0000"/>
+
+  <text x="600" y="325" fill="#B00000"
+        font-family="monospace" font-size="16"
+        letter-spacing="8" text-anchor="middle">
+    ORDO AB CHAO
+  </text>
+
+  <text x="600" y="355" fill="#633333"
+        font-family="monospace" font-size="12"
+        letter-spacing="3" text-anchor="middle">
+    ВЕЧНЫЙ ОРДЕН НЕВИДИМЫХ
+  </text>
+</svg>
